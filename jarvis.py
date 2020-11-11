@@ -126,6 +126,7 @@ if __name__ == "__main__":
                 print("Your Email has been successfully delivered.")
             except:
                 speak("Sorry, Email can't delivered.")
+                
         elif "quit" in query:
             speak(" Thanks for accessing service! Have a good day.")
             exit()
